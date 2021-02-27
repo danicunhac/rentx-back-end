@@ -1,12 +1,18 @@
+import 'dotenv/config';
+
 /* eslint-disable no-console */
 import express from 'express';
+import cors from 'cors';
 
 const app = express();
 
+app.use(cors());
+app.use(express.json());
+
 app.get('/', (request, response) => {
-  return response.json({ message: 'Welcomer Renter' });
+  return response.json({ message: 'Welcome Renter' });
 });
 
-app.listen(3333, () => {
-  console.log('🚀 Server running on port 3333');
+app.listen(process.env.PORT, () => {
+  console.log(`🧪 Server running on port ${process.env.PORT}`);
 });
