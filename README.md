@@ -4,4 +4,4 @@
 
 ## 📰 MIT License
 
-[Copyright](https://www.copyright.com/) (c) 2021 [Daniel Cunha](https://www.linkedin.com/in/danielcunhac/)
+[Copyright](https://github.com/danicunhac/rentx-back-end/blob/main/LICENSE) (c) 2021 [Daniel Cunha](https://www.linkedin.com/in/danielcunhac/)
